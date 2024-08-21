@@ -60,8 +60,8 @@ datamap <- ggplot() +
   theme_void() + theme(legend.position = "left")
 datamap
 
-## And save as a .pdf
+## Save as a .pdf
 ggsave(plot = datamap,
        width = 11, height = 5, dpi = 600, 
-       filename = "./figures/map_databases.pdf", useDingbats=FALSE)
+       filename = "./figures/Figure2.pdf", useDingbats=FALSE)
 
